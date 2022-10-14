@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-lg  fw-bold  fixed-top" id="head">
+    <nav className="navbar navbar-expand-lg  fw-bold  " id="head">
       <div className="container">
         <a className="navbar-brand" href="#">
         <img src="assets/logo.png" alt=" " width={200} />

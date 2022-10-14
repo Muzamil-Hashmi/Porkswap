@@ -5,10 +5,12 @@ const data = {
  
   rows: [
     {
-      title: "What is PorkSwap?",
+      title : "What is PorkSwap? " ,
       content:
         "PorkSwap is a decentralized platform for spot and futures trading. You can trade any BEP-20 tokens on Binance Smart Chain. It eliminates trusted intermediaries and unnecessary forms of rent extraction, allowing for fast, efficient trading. Porkswap will be open-source under GPL license. ",
     },
+
+    
     
     {
       title: "How do I use PorkSwap?",
@@ -55,13 +57,13 @@ const data = {
 export default class App extends Component {
   render() {
     return (
-      <div className="container-fluid py-5" id="faq" >
+      <div className="container-fluid " id="faq" >
 
 <div className="container text-center  fw-bold" >
         <h1>FAQs</h1>
         <div className="row">
           <div className="col-md-12">
-            <Faq data={data} />
+            <Faq data={data}  />
           </div>
         </div>
       </div>

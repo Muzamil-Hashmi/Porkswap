@@ -7,7 +7,7 @@ export default function Work() {
         <div className="row">
           <div className="col-md-12">
          <div>
-         <h1>How It Works</h1>
+         <h1>How It <span className="text-danger  fw-bold"> Works </span></h1>
             <video
               className="video "
               height={500}

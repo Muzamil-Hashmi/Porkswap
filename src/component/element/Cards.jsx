@@ -6,7 +6,7 @@ function Cards() {
       <div className="container text-center mt-5 ">
         <div className="row">
           <div className="col-md-4 ">
-            <img src="assets/10001.png" alt=" " width={100} />
+            <img src="assets/10005.png" alt=" " width={100} />
 
             <h1>Deflationary</h1>
             <p>
@@ -17,8 +17,8 @@ function Cards() {
             </p>
           </div>
 
-          <div className="col-md-4  card " id="card">
-            <img src="assets/10002.png" alt=" " width={100} />
+          <div className="col-md-4   card  " id="card">
+            <img className="d-block mx-auto" src="assets/10002.png" alt=" " width={100} />
 
             <h1>Community Governance</h1>
             <p>
@@ -39,7 +39,7 @@ function Cards() {
               sell short, it's on you
             </p>
           </div>
-          <div className="col-md-4 " id="card">
+          <div className="col-md-4 " id="card1">
             <img src="assets/10004.png" alt=" " width={100} />
 
             <h1>Spot Trading</h1>
@@ -60,7 +60,7 @@ function Cards() {
               year
             </p>
           </div>
-          <div className="col-md-4 " id="card">
+          <div className="col-md-4 " id="card2">
             <img src="assets/10006.png" alt=" " width={100} />
 
             <h1>Security</h1>
